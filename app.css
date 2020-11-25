@@ -6,3 +6,93 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+header{
+  display: block;
+  margin: auto;
+  justify-content:center;
+  text-align:center;
+  border-radius: 5px;
+  border: solid #c8f7c5;
+  background: #56377e;
+  color:#c8f7c5;
+  margin-top:5%;
+}
+main{
+  border: #c8f7c5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  
+} 
+
+
+}
+.questionContainer{
+  border: #c8f7c5;
+  background: #56377e;
+  border-radius: 10px;
+  padding: 20px;
+   margin: 20px;
+}
+
+.startScreen {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+
+   
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+h1{
+  font-family: "Montserrat", "Arial";
+  text-align: center;
+  background: #56377e;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    box-shadow: 80px;
+    
+
+}
+.buttonContainer{
+  float: right;
+}
+.questionContainer{
+    justify-content: center;
+  
+}
+
+.nextButton, .submitButton, #restart, #start{
+    font-family: "Montserrat", "Arial";
+    font-size:16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    color:#56377e;
+    background-color:#c8f7c5;
+}
+
+
+
+body {
+  font-family:"Montserrat","Arial";
+  background-color:#56377e;
+  color:#c8f7c5;
+}
+ 
+ label {
+   display: block;
+ }
+ @media (min-width: 700px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
